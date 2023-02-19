@@ -34,8 +34,25 @@ Request Parameters:
 
 Response:
 
-* If login is successful, returns 200 OK and a token that can be used to authenticate future requests.
+* If login is successful, returns 200 OK and a access token and a refresh token that can be used to authenticate future requests.
 * If login fails, returns a 401 Unauthorized error with an error message.
+
+* * *
+
+## Refresh Token
+
+`POST /api/users/login/refresh`
+
+This API allows users to get a new access token with refresh token.
+
+Request Parameters:
+
+* `refresh` (required): The refresh token.
+
+Response:
+
+* If successful, returns 200 OK and a access token that can be used to authenticate future requests.
+* If failed, returns a 401 Unauthorized error with an error message.
 
 * * *
 
