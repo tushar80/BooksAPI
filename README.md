@@ -1,4 +1,17 @@
-# API Documentation
+# Books API
+
+* * *
+
+The Books API is a RESTful web service that provides endpoints for user authentication and book management. The API is built using Django and Django Rest Framework.
+
+## Features
+
+* User registration, login (using JSON Web Token JWT)
+* Book management (add, list)
+* Review management (add, list, delete)
+* User-specific book and review retrieval
+
+## API Documentation
 
 * * *
 
