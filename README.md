@@ -11,11 +11,12 @@ This API allows users to register for an account.
 Request Parameters:
 
 * `username` (required): The username of the user.
+* `email` (required): The email of the user.
 * `password` (required): The password of the user.
 
 Response:
 
-* If registration is successful, returns 201 Created and the newly created username and authenticationn token.
+* If registration is successful, returns 201 Created and the newly created username and authentication token.
 * If registration fails, returns a 400 Bad Request error with an error message.
 
 * * *
